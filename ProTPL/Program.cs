@@ -10,7 +10,7 @@ namespace ProTPL
     {
         static void Main(string[] args)
         {
-            Cap2.Program11.Listing11();
+            Cap2.Program12.Listing12();
         }
     }
 }
