@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA1F316E-8B35-42A9-84C4-2D62FE195A07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ProTPL.Exercises</RootNamespace>
+    <AssemblyName>ProTPL.Exercises</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Cap2\Program03.cs" />
+    <Compile Include="Cap2\Program04.cs" />
+    <Compile Include="Cap2\Program05.cs" />
+    <Compile Include="Cap2\Program06.cs" />
+    <Compile Include="Cap2\Program07.cs" />
+    <Compile Include="Cap2\Program08.cs" />
+    <Compile Include="Cap2\Program09.cs" />
+    <Compile Include="Cap2\Program10.cs" />
+    <Compile Include="Cap2\Program11.cs" />
+    <Compile Include="Cap2\Program12.cs" />
+    <Compile Include="Cap2\Program13.cs" />
+    <Compile Include="Cap2\Program14.cs" />
+    <Compile Include="Cap2\Program15.cs" />
+    <Compile Include="Cap2\Program16.cs" />
+    <Compile Include="Cap2\Program17.cs" />
+    <Compile Include="Cap2\Program18.cs" />
+    <Compile Include="Cap2\Program19.cs" />
+    <Compile Include="Cap2\Program20.cs" />
+    <Compile Include="Cap2\Program21.cs" />
+    <Compile Include="Cap2\Program22.cs" />
+    <Compile Include="Cap2\Program23.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cap2\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

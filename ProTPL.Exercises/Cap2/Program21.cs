@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProTPL.Cap2
+namespace ProTPL.Exercises.Cap2
 {
-    public class Program23
+    public class Program21
     {
-        //Example Listing 23
+        //Example Listing 21
 
-        public static void Listing23()
+        public static void Listing21()
         {
 
         }
+
     }
 }

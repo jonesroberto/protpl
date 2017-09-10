@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProTPL.Cap2
+namespace ProTPL.Exercises.Cap2
 {
     public class Program05
     {

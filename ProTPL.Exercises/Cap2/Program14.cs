@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProTPL.Cap2
+namespace ProTPL.Exercises.Cap2
 {
     public class Program14
     {
@@ -12,6 +12,8 @@ namespace ProTPL.Cap2
 
         public static void Listing14()
         {
+            //Criando exercício no com Visual studio for mac
+
 
         }
 
